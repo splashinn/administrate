@@ -5,8 +5,9 @@ de:
       confirm: Sind Sie sicher?
       destroy: Löschen
       edit: Editieren
-      show: Anzeigen
-      new: Neu
+      edit_resource: "%{name} editieren"
+      show_resource: "%{name} anzeigen"
+      new_resource: "%{resource} erstellen"
       back: Zurück
     controller:
       create:
@@ -21,6 +22,9 @@ de:
         none: Keine
       has_one:
         not_supported: HasOne Beziehungen werden nicht unterstützt.
+    form:
+      error: error
+      errors: "%{pluralized_errors} prohibited this %{resource_name} from being saved:"
     search:
       clear: Saubere Suche
       label: Suche %{resource}

@@ -4,8 +4,9 @@ bs:
       confirm: Jeste li sigurni?
       destroy: Izbrisati
       edit: Izmjena
-      show: Pregled
-      new: Novi
+      edit_resource: Izmjena %{name}
+      show_resource: Pregled %{name}
+      new_resource: Novi %{resource}
       back: Nazad
     controller:
       create:
@@ -20,6 +21,9 @@ bs:
         none: Niko
       has_one:
         not_supported: Asocijacije HasOne još nije podržana. Žao nam je!
+    form:
+      error: error
+      errors: "%{pluralized_errors} prohibited this %{resource_name} from being saved:"
     search:
       clear: Izbriši pretraživanje
       label: Pretraga %{resource}

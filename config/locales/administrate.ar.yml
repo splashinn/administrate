@@ -5,8 +5,9 @@ ar:
       confirm: "هل أنت متأكد ؟"
       destroy: "حذف"
       edit: "تعديل"
-      show: "إظهار"
-      new: "جديد"
+      edit_resource: "تعديل %{name}"
+      show_resource: "إظهار %{name}"
+      new_resource: "جديد  %{resource}"
       back: "الى الخلف"
     controller:
       create:
@@ -21,6 +22,9 @@ ar:
         none: "لا يوجد"
       has_one:
         not_supported: "غير مدعمه \"HasOne\" هذه العلاقه"
+    form:
+      error: error
+      errors: "%{pluralized_errors} prohibited this %{resource_name} from being saved:"
     search:
       clear: مسح البحث
       label: بحث %{resource}
